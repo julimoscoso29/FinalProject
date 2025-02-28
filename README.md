@@ -2,6 +2,8 @@
 
 CM3 - CS Final Project 
 
+Vide Demo: <https://www.youtube.com/watch?v=MZ__wxSbv_E>
+
 Feb 28 2025
 
 Mathias Osland & Juliana Moscoso
