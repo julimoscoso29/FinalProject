@@ -44,9 +44,10 @@ generate_summary ()
 -	It ensures valid transaction types (income or expense).
 
 • Three Main Functions:
-•	add_transaction: Adds a new transaction.
-•	view_transactions: Displays all transactions.
-•	generate_summary_by_category: Generates a summary report by category.
+- add_transaction: Adds a new transaction.
+- view_transactions: Displays all transactions.
+- generate_summary_by_category: Generates a summary report by category.
 
 •Pytest Test Cases 
+
 pytest test cases that correspond to the functionality of the project are included. 
