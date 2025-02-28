@@ -2,6 +2,8 @@
 
 CM3 - CS Final Project 
 
+Feb 28 2025
+
 Mathias Osland & Juliana Moscoso
 
 Project Idea: Personal Budget Tracker
