@@ -49,4 +49,5 @@ Three Main Functions:
 •	generate_summary_by_category: Generates a summary report by category.
 
 Pytest Test Cases 
+
 pytest test cases that correspond to the functionality of the project are included. 
