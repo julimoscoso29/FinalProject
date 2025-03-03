@@ -1,5 +1,7 @@
 # FinalProject
 
+Vide Demo <https://www.youtube.com/watch?v=MZ__wxSbv_E&t=5s>
+
 CM3 - CS Final Project 
 
 Mathias Osland & Juliana Moscoso
@@ -10,6 +12,8 @@ Project Idea: Personal Budget Tracker
 
 • A command-line application is a program that the user can interact with by typing commands. It reads and writes data to a csv file. A csv is a file format that stores data. The program takes the information from the file, and it can also add/update data in it.
 
+
+
 Features:
 
 -	Add income and expenses with descriptions and categories
@@ -18,6 +22,8 @@ Features:
 -	Save transactions in a CSV file 
 -	Basic error handling for user input
 -	Three main functions with pytest test cases
+
+  
   
 Project Structure:
 
@@ -26,6 +32,7 @@ Project Structure:
 -	test_project.py     # pytest test cases for three functions
 -	transactions.csv    # csv file to store transactions
 -	requirements.txt    # dependencies (if needed)
+  
 
   
 Functions to Implement & Test:
@@ -43,10 +50,14 @@ Reads and shows all transactions from transactions.csv.
 This function generates a report showing income and expenses by category.
 It calculates totals for each category and a summary for total income and expenses.
 
+
+
 Basic Error Handling for User Input:
 
 •The main () function has error handling for invalid amounts (non-numeric input).
 •It ensures valid transaction types (income or expense).
+
+
 
 Three Main Functions:
 
@@ -54,9 +65,13 @@ Three Main Functions:
 •	view_transactions: Displays all transactions.
 •	generate_summary_by_category: Generates a summary report by category.
 
+
+
 Python code:
 
 The Python script for the budget tracker allows users to add transactions, view them, and generate a summary by category. It stores transactions in a csv file (transactions.csv). The add_transaction () function formats the amount to one decimal place and adds it to the file along with the category and transaction type. The view_transactions () function reads the file and returns a list of transactions. The generate_summary_by_category () function go through all the transactions, then categorizes them into income and expenses, sums them up, and stores them in a dictionary, including the total income and expenses. The main () function allow users to interact, where they can choose to add a transaction by entering an amount, category, and type (income or expense), view all transactions, or generate a summary. It also checks that the transaction type is correct, and the amount is a number. The program runs in a loop until the user selects option 4 to exit. 
+
+
 
 Pytest Test Cases:
 
