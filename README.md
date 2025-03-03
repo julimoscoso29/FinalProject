@@ -83,3 +83,10 @@ It imports pytest, csv, and the required functions from project.py. A function c
 The test_view_transactions () function clears the file, adds two transactions (50, "food", "expense" and 20, "transport", "expense"), and it checks that both transactions were added and their details are displayed correctly.
 
 The test_generate_summary () function clears the file, adds three transactions (100, "Salary", "income", 50, "Food", "expense", and 20, "Transport", "expense"), then creates a summary, and checks if income and expenses are categorized in the correct order, ensuring that the values are stored as floats and the total calculations are accurate (100.0 income, 70.0 expenses). To run the tests, we execute pytest test_project.py.
+
+References
+
+We use the CS50 Duck:
+<https://cs50.ai/chat>
+
+We also took insipiration for our code from previous class projects, like the tipcalucator.
